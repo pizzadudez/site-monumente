@@ -1,6 +1,17 @@
+body {
+	background-color: #ddd7d0;
+	color: #444545;
+}
+
+h1, h2, h3 {
+	margin-top: :0.5em;
+	margin-bottom:0.5em;
+}
+
 hr {
 	margin-top: 0;
 	margin-bottom: 0;
+	background-color: black;
 }
 
 .card-custom{
@@ -11,20 +22,63 @@ hr {
     background-color: transparent;
 }
 
-.servicii {
-	background-color: #f2f2f2;
+#servicii {
+	background-color: #d7d0c8;
+	padding-top: 65px;
+    margin-top: -65px;
+    background-clip: content-box;
 }
 
-.materiale {
-	background-color: #f2f2f2;
+#galerie {
+	background-color: #ddd7d0;
+	background-clip: content-box;
 }
 
-.comenzi-speciale {
-	background-color: #f2f2f2;
+#materiale {
+	background-color: #d7d0c8;
+	padding-top: 90px;
+    margin-top: -90px;
+    background-clip: content-box;
 }
 
-.galerie {
-	background-color: #f2f2f2;
+#comenzi-speciale {
+	background-color: #ddd7d0;
+	padding-top: 90px;
+    margin-top: -90px;
+    background-clip: content-box;
+}
+
+#galerie-foto {
+	background-color: #ddd7d0;
+}
+
+#contact {
+	background-color: #ddd7d0;	
+}
+
+/* Navbar */
+.navbar-custom {
+	z-index: 200;
+	background-color: #353e44;
+}
+
+.navbar-brand {
+	font-size:1.6rem;
+}
+
+.navbar {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-size: 1rem;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+	transition: all 0.15s;
+}
+
+.navbar.compressed {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 0.95rem;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 
 /* Parallax */
@@ -41,29 +95,19 @@ hr {
     background-position: center;
 }
 
-.parallax-1 {background-image: url("img/parallax_1.jpg");}
+.parallax-1 {background-image: url("img/parallax_1.jpg");filter: grayscale(70%);}
 
 .parallax-2 {background-image: url("img/parallax_2.jpg");}
 
 /* Footer */
-footer{
-	background-color: grey;
-}
-
 .main-footer {
-	background-color: lightgrey;
+	background-color: #3f3e3d;
+	color: #d7d0c8;
 }
 
-.footer-text {
-	font-size: 0.7rem;
-}
-
-.footer-menu {
-	font-size: 0.7rem;
-}
-
-a.footer-links:link {
-	color: #ffffff;
+footer{
+	background-color: #606166;
+	color: #d7d0c8;
 }
 
 .info-contact {
@@ -74,3 +118,10 @@ a.footer-links:link {
 .info-contact-icon {
 	width:2.2rem;
 }
+
+.footer-text {font-size: 0.7rem;}
+
+.footer-links {color: #fff;}
+
+.footer-links:hover {color: #d7d0c8;}
+
