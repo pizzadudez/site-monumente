@@ -7,8 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Font Awesome -->
+    <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;subset=latin-ext" rel="stylesheet"> 
     
     <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="custom.css">
@@ -32,7 +34,7 @@
               <a class="nav-link" href="#servicii">Servicii</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#materiale">Monumente</a>
+              <a class="nav-link" href="#materiale">Materiale</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#comenzi-speciale">Comenzi Speciale</a>
@@ -40,10 +42,10 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galerie</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="galerie.html">Marmura</a>
-                <a class="dropdown-item" href="galerie.html">Granit</a>
+                <a class="dropdown-item" href="galerie.html#cruci-marmura">Marmura</a>
+                <a class="dropdown-item" href="galerie.html#monumente-granit">Granit</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="galerie.html">Comenzi Speciale</a>
+                <a class="dropdown-item" href="galerie.html#monumente-unicat">Comenzi Speciale</a>
               </div>
             </li>
             <li class="nav item">
@@ -59,14 +61,15 @@
   
     <!-- Servicii Descriere -->
     <section id="servicii" class="text-center">
-      <div class="container pb-4 pt-4">
-        <h1>Servicii</h1>
+      <div class="container servicii-text pb-4 pt-4">
         <div class="row justify-content-center">
-          <p>Lorem ipsum dolor sit amet, ius eu nihil definiebas elaboraret. Duo nobis utinam no, id est corrumpit accommodare. Vero solum mel ne, molestie liberavisse et eum. Eam illud aliquam insolens eu, postea vivendo eu per. Vis quot maiorum cu.</p>
-          <p>Dolor facete eruditi an pri. Cu has fierent intellegat. Ipsum oportere mediocrem pro eu, te sed accumsan facilisis intellegat. Nec doming perfecto sensibus ei. Integre veritus an vis, pro mundi propriae ea.</p>
-          <p>Ad vis veri civibus, meis scaevola evertitur at eos. Id eirmod aliquam sed, bonorum perfecto has te. Vero concludaturque pri id, nostro fastidii instructior usu te. Noster nostrum luptatum ea sed, id tale dictas gubergren has. Nam clita delectus maiestatis id, wisi posse signiferumque et cum. Solet delicatissimi in nec, quem dicat volumus an est.</p>
-          <p>Ad vis veri civibus, meis scaevola evertitur at eos. Id eirmod aliquam sed, bonorum perfecto has te. Vero concludaturque pri id, nostro fastidii instructior usu te. Noster nostrum luptatum ea sed, id tale dictas gubergren has. Nam clita delectus maiestatis id, wisi posse signiferumque et cum. Solet delicatissimi in nec, quem dicat volumus an est.</p>
-          <p>Ad vis veri civibus, meis scaevola evertitur at eos. Id eirmod aliquam sed, bonorum perfecto has te. Vero concludaturque pri id, nostro fastidii instructior usu te. Noster nostrum luptatum ea sed, id tale dictas gubergren has. Nam clita delectus maiestatis id, wisi posse signiferumque et cum. Solet delicatissimi in nec, quem dicat volumus an est.</p>
+          <div class="col-10">
+            <h1>Servicii</h1>
+            <p>&#x25cf <strong>Consultanta</strong> gratuita in alegerea materialelor si a solutiilor tehnice</p>
+            <p>&#x25cf <strong>Realizarea</strong> de monumente funerare de serie, personalizate sau unicat</p>
+            <p>&#x25cf <strong>Inscriptionare</strong> monumente funerare realizate, prin sablare si vopsire sau utilizand caractere din bronz</p>
+            <p>&#x25cf <strong>Accesorizare</strong> (vaze, felinare, rame poza, crucifixuri etc.)</p>
+          </div>
         </div>
       </div>
     </section>
@@ -80,28 +83,32 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="card border-0 card-custom">
-              <img class="card-img-top rounded-circle" src="img/card-marmura.jpg" alt="marmura">
-              <div class="card-block">
-                <h3 class="card-title-text-primary text-center">Monumente Marmura</h3>
-                <p class="card-text text-center">Galerie</p>
+            <div class="card border-0 card-custom pb-4">
+              <img class="card-img-top rounded-circle" src="img/galerie-marmura.jpg" alt="cruci-marmura">
+              <div class="card-block text-center">
+                <h2 class="card-title-text-primary text-center mt-3 mb-2">Cruci Marmura</h2>
+                <a class="btn btn-secondary" href="galerie.html#cruci-marmura" role="button">Vezi Galeria Foto</a>
+                <!--<a class="btn btn-secondary" href="#" role="button">Articol</a>-->
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card border-0 card-custom">
-              <img class="card-img-top rounded-circle" src="img/card-marmura.jpg" alt="marmura">              <div class="card-block">
-                <h3 class="card-title-text-primary text-center">Monumente Granit</h3>
-                <p class="card-text text-center">Galerie</p>
+            <div class="card border-0 card-custom pb-4">
+              <img class="card-img-top rounded-circle" src="img/galerie-granit.jpg" alt="monumente-granit">
+              <div class="card-block text-center">
+                <h2 class="card-title-text-primary text-center mt-3 mb-2">Monumente Granit</h2>
+                <a class="btn btn-secondary" href="galerie.html#monumente-granit" role="button">Vezi Galeria Foto</a>
+                <!--<a class="btn btn-secondary" href="#" role="button">Articol</a>-->
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card border-0 card-custom">
-              <img class="card-img-top rounded-circle" src="img/card-marmura.jpg" alt="marmura">
-              <div class="card-block">
-                <h3 class="card-title-text-primary text-center">Monumente Unicat</h3>
-                <p class="card-text text-center">Galerie</p>
+            <div class="card border-0 card-custom pb-4">
+              <img class="card-img-top rounded-circle" src="img/galerie-unicat.jpg" alt="monumente-unicat">
+              <div class="card-block text-center">
+                <h2 class="card-title-text-primary text-center mt-3 mb-2">Monumente Unicat</h2>
+                <a class="btn btn-secondary" href="galerie.html#monumente-unicat" role="button">Vezi Galeria Foto</a>
+                <!--<a class="btn btn-secondary" href="#" role="button">Articol</a>-->
               </div>
             </div>
           </div>
@@ -111,24 +118,23 @@
     
     
     <!-- Marmura/Granit -->
-    <section id="materiale" class="text-center">
+    <section id="materiale" >
       <div class="container pb-4 pt-4">
         <div class="row justify-content-center">
-          <div class="col-md-6">
-            <h1>Marmura</h1>
-            <p>Lorem ipsum dolor sit amet, ius eu nihil definiebas elaboraret. Duo nobis utinam no, id est corrumpit accommodare. Vero solum mel ne, molestie liberavisse et eum. Eam illud aliquam insolens eu, postea vivendo eu per. Vis quot maiorum cu.</p>
-
-            <p>Dolor facete eruditi an pri. Cu has fierent intellegat. Ipsum oportere mediocrem pro eu, te sed accumsan facilisis intellegat. Nec doming perfecto sensibus ei. Integre veritus an vis, pro mundi propriae ea.</p>
-
-            <p>Ad vis veri civibus, meis scaevola evertitur at eos. Id eirmod aliquam sed, bonorum perfecto has te. Vero concludaturque pri id, nostro fastidii instructior usu te. Noster nostrum luptatum ea sed, id tale dictas gubergren has. Nam clita delectus maiestatis id, wisi posse signiferumque et cum. Solet delicatissimi in nec, quem dicat volumus an est.</p>
+          <div class="col-lg-10">
+            <h1 align="center">Marmura</h1>
+            <p>Marmura  este o roca folosita inca din antichitate de sculptorii greci pentru realizarea de statui care dainuie si in zilele noastre.</p>
+            <p>Maestrii sculpturii renascentiste si baroce au realizat de asemenea opere nemuritoare din marmura.</p>
+            <p>Dintre acestea probabil cele mai cunoscute apartinind  sculptorului renascentist Michelangelo: capela Medici, cavoul papei Iulius, sculpturile David, Pieta si altele  sunt  o sursa de inspiratie pentru generatii de artisti si nu numai.</p>
+            <p>Maestrul sculpturii baroce Bernini a realizat de asemenea din marmura lucrari monumentale precum cavoul papei Alexandru al VII-lea   precum si sculpturi de o inegalabila expresivitate precum Apollo si Dafne, David si altele.</p>
+            <p>Marmura extrasa in carierele din Ruschita este considerate una dintre cele mai trainice si estetice, ea rivalizeaza cu marmura extrasa in cele mai cunoscute cariere din Carrara motiv pentru care a fost utilizata la palatul bancilor din Viena, Domul din Milano, sediul BBC, palatul parlamentului din Bucuresti si desigur pentru executia de monumente funerare.</p>
           </div>
-          <div class="col-md-6">
-            <h1>Granit</h1>
-            <p>Lorem ipsum dolor sit amet, ius eu nihil definiebas elaboraret. Duo nobis utinam no, id est corrumpit accommodare. Vero solum mel ne, molestie liberavisse et eum. Eam illud aliquam insolens eu, postea vivendo eu per. Vis quot maiorum cu.</p>
-
-            <p>Dolor facete eruditi an pri. Cu has fierent intellegat. Ipsum oportere mediocrem pro eu, te sed accumsan facilisis intellegat. Nec doming perfecto sensibus ei. Integre veritus an vis, pro mundi propriae ea.</p>
-
-            <p>Ad vis veri civibus, meis scaevola evertitur at eos. Id eirmod aliquam sed, bonorum perfecto has te. Vero concludaturque pri id, nostro fastidii instructior usu te. Noster nostrum luptatum ea sed, id tale dictas gubergren has. Nam clita delectus maiestatis id, wisi posse signiferumque et cum. Solet delicatissimi in nec, quem dicat volumus an est.</p>
+          <div class="col-lg-10">
+            <h1 align="center">Granit</h1>
+            <p>Granitul prezinta o mare varietate de culori (negru, verde, albastru, rosu, gri, maroniu) si o mare rezistenta mecanica.</p>
+            <p>In general prezinta o granulatie de mari dimensiuni si culoare uniforma.</p>
+            <p>Se poate utiliza in combinatii de culori si de asemenea in combinatii cu marmura alba.
+            Este un material recent introdus in fabricarea pe scara larga de monumente funerare  destinate pietei romanesti.</p>
           </div>
         </div>
       </div>
@@ -136,15 +142,13 @@
     
 
     <!-- Comenzi Speciale -->
-    <section id="comenzi-speciale" class="text-center">
+    <section id="comenzi-speciale">
       <div class="container pb-4 pt-4">
         <div class="row justify-content-center">
-          <h1>Comenzi Speciale</h1>
-          <p>Lorem ipsum dolor sit amet, ius eu nihil definiebas elaboraret. Duo nobis utinam no, id est corrumpit accommodare. Vero solum mel ne, molestie liberavisse et eum. Eam illud aliquam insolens eu, postea vivendo eu per. Vis quot maiorum cu.</p>
-
-          <p>Dolor facete eruditi an pri. Cu has fierent intellegat. Ipsum oportere mediocrem pro eu, te sed accumsan facilisis intellegat. Nec doming perfecto sensibus ei. Integre veritus an vis, pro mundi propriae ea.</p>
-
-          <p>Ad vis veri civibus, meis scaevola evertitur at eos. Id eirmod aliquam sed, bonorum perfecto has te. Vero concludaturque pri id, nostro fastidii instructior usu te. Noster nostrum luptatum ea sed, id tale dictas gubergren has. Nam clita delectus maiestatis id, wisi posse signiferumque et cum. Solet delicatissimi in nec, quem dicat volumus an est.</p>
+          <div class="col-lg-10">
+            <h1 align="center">Comenzi Speciale</h1>
+            <p>Executam monumente funerare dupa schita, fotografia sau specificatiile clientului sau putem creiona impreuna, pornind de la dorintele Dvs., proiectul unui monument funerar, personalizat sau unicat, pe care ulterior sa-l realizam in functie de complexitatea acestuia intr-un termen rezonabil.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -154,15 +158,15 @@
     <section class="main-footer">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-sm-auto mx-auto pt-4">
+          <div class="col-xs-auto mx-auto pt-4">
             <h3 class="text-left">Info Contact</h3>
             <div class="info-contact">
               <i class="info-contact-icon fas fa-map-marker-alt fa-2x"></i>
-              <em>Showroom:</em> Strada X nr. x, Brasov
+              Strada Lunga nr. 251, Brasov
             </div>
             <div class="info-contact">
               <i class="info-contact-icon fas fa-mobile-alt fa-2x"></i>
-              0755.000.111 / 0755.111.000
+              0741 129 611
             </div>
             <div class="info-contact">
               <i class="info-contact-icon far fa-envelope fa-2x"></i>
@@ -170,17 +174,19 @@
             </div>
             <div class="info-contact">
               <i class="info-contact-icon fab fa-facebook-square fa-2x"></i>
-              <a class="footer-links" href="https://www.facebook.com/">facebook.com/facebook</a>
+              <a class="footer-links" href="https://www.facebook.com/">facebook.com/monumentebrasov</a>
             </div>
           </div>
-          <div class="col-sm-auto mx-auto pt-4">
-            <h3>Servicii</h3>
-            <ul>
-              <li class="mb-2">Monumente Marmura</li>
-              <li class="mb-2">Monumente Granit</li>
-              <li class="mb-2">Consultanta</li>
-              <li class="mb-2">Asamblare</li>
-              <li class="mb-2">Comenzi speciale</li>
+          <div class="col-xs-auto mx-auto pt-4">
+            <h3 class="pl-4">Servicii</h3>
+            <ul class="footer-servicii">
+              <li class="mb-2">Consultanta gratuita</li>
+              <li class="mb-2">Monumente de serie</li>
+              <li class="mb-2">Monumente personalizate</li>
+              <li class="mb-2">Monumente unicat</li>
+              <li class="mb-2">Inscriptionare</li>
+              <li class="mb-2">Accesorizare</li>
+              <li class="mb-2">Montaj</li>
             </ul>
           </div>
           <div class="col-lg text-center pt-5">
@@ -195,16 +201,16 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-4 mt-3 text-md-left">
-            <p class="footer-text">© 2018 Companie. Design by Vlad.</p>
+            <p class="footer-text">© 2018 Monumente Brasov. Design by Vlad.</p>
           </div>
           <div class="col-md-8 mt-md-3 text-md-right">
             <ul class="list-inline footer-text">
               <li class="list-inline-item"><a class="footer-links" href="#">Home</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Servicii</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Monumente</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Comenzi Speciale</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Galerie</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Contact</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="#servicii">Servicii</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="#materiale">Materiale</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="#comenzi-speciale">Comenzi Speciale</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="galerie.html">Galerie</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="contact.html">Contact</a></li>
             </ul>
           </div>
         </div>

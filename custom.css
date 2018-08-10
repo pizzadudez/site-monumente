@@ -1,11 +1,14 @@
 body {
 	background-color: #ddd7d0;
 	color: #444545;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
 }
 
 h1, h2, h3 {
 	margin-top: :0.5em;
 	margin-bottom:0.5em;
+	font-weight:600;
 }
 
 hr {
@@ -29,15 +32,23 @@ hr {
     background-clip: content-box;
 }
 
+.servicii-text {
+	font-size: 1.2em;
+}
+
 #galerie {
 	background-color: #ddd7d0;
 	background-clip: content-box;
 }
 
+.rounded-circle {
+	box-shadow: -2px -1px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
 #materiale {
 	background-color: #d7d0c8;
 	padding-top: 90px;
-    margin-top: -90px;
+    margin-top: -150px;
     background-clip: content-box;
 }
 
@@ -50,6 +61,11 @@ hr {
 
 #galerie-foto {
 	background-color: #ddd7d0;
+}
+#cruci-marmura, #monumente-granit, #monumente-unicat {
+	padding-top: 90px;
+	margin-top: -90px;
+	background-clip: content-box;
 }
 
 #contact {
@@ -89,7 +105,7 @@ hr {
 }
 
 .parallax {
-    height: 35rem;
+    height: 65vh;
     background-size: cover;  
     background-repeat: no-repeat;
     background-position: center;
@@ -122,6 +138,8 @@ footer{
 .footer-text {font-size: 0.7rem;}
 
 .footer-links {color: #fff;}
+
+.footer-servicii {font-size: 0.7em;}
 
 .footer-links:hover {color: #d7d0c8;}
 

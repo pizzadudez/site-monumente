@@ -58,13 +58,76 @@
     <section id="contact">
       <div class="row pt-4">
         <div class="col-md-12 text-center">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d845.0542381807918!2d25.57720722925582!3d45.66273393596613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35ba4d95b53d3%3A0x481bc5635ffa85f5!2zU3RyYWRhIEx1bmfEgyAyNTEsIEJyYciZb3Y!5e1!3m2!1sen!2sro!4v1533510541380" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d845.0542381807918!2d25.57720722925582!3d45.66273393596613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35ba4d95b53d3%3A0x481bc5635ffa85f5!2zU3RyYWRhIEx1bmfEgyAyNTEsIEJyYciZb3Y!5e1!3m2!1sen!2sro!4v1533510541380" width="768" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div> 
       </div>
-      <div class="row">
-
-      </div>
     </section>
+
+    <form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+    <div class="container">
+    <div class="controls">
+
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="form_name">Nume *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="form_lastname">Prenume *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="form_need">Please specify your need *</label>
+                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value=""></option>
+                        <option value="Request quotation">Request quotation</option>
+                        <option value="Request order status">Request order status</option>
+                        <option value="Request copy of an invoice">Request copy of an invoice</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="form-group">
+                    <label for="form_message">Mesaj *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <input type="submit" class="btn btn-secondary btn-send" value="Trimite Mesaj">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <p class="text-muted">
+                    <strong>*</strong> Campuri obligatorii.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</form>
 
     <!-- Main Footer -->
     <section class="main-footer">
