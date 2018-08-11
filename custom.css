@@ -17,12 +17,28 @@ hr {
 	background-color: black;
 }
 
-.card-custom{
+.card-custom {
 	z-index: 100;
 	top: -4.5em;
 	display: inline-block;
     float: none;
     background-color: transparent;
+}
+
+.card-img-overlay-custom {
+	position: absolute;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.card-text-custom {
+	margin-bottom: 0;
+	margin-left: 4px;
+	font-size: 18px;
+	color: white;
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 2);
 }
 
 #servicii {
@@ -62,6 +78,11 @@ hr {
 #galerie-foto {
 	background-color: #ddd7d0;
 }
+
+.img-galerie {
+	padding: 2px 2px;
+}
+
 #cruci-marmura, #monumente-granit, #monumente-unicat {
 	padding-top: 90px;
 	margin-top: -90px;
@@ -79,14 +100,21 @@ hr {
 }
 
 .navbar-brand {
-	font-size:1.6rem;
+	font-size: 1.6rem;
 }
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		font-size: 1.2rem;
+	}
+}
+
 
 .navbar {
 	padding-top: 18px;
 	padding-bottom: 18px;
 	font-size: 1rem;
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
 	transition: all 0.15s;
 }
 
@@ -94,7 +122,7 @@ hr {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 0.95rem;
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
 }
 
 /* Parallax */
