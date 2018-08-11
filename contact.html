@@ -7,8 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Font Awesome -->
+    <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;subset=latin-ext" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="custom.css">
@@ -32,7 +34,7 @@
               <a class="nav-link" href="index.html#servicii">Servicii</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#materiale">Monumente</a>
+              <a class="nav-link" href="index.html#materiale">Materiale</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#comenzi-speciale">Comenzi Speciale</a>
@@ -40,14 +42,14 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galerie</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="galerie.html">Marmura</a>
-                <a class="dropdown-item" href="galerie.html">Granit</a>
+                <a class="dropdown-item" href="galerie.html#cruci-marmura">Marmura</a>
+                <a class="dropdown-item" href="galerie.html#monumente-granit">Granit</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="galerie.html">Comenzi Speciale</a>
+                <a class="dropdown-item" href="galerie.html#monumente-unicat">Lucrari Unicat</a>
               </div>
             </li>
-            <li class="nav item">
-              <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
+            <li class="nav item active">
+              <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -55,11 +57,13 @@
     </nav>
 
     <!-- Contact Page -->
-    <section id="contact">
-      <div class="row pt-4">
-        <div class="col-md-12 text-center">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d845.0542381807918!2d25.57720722925582!3d45.66273393596613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35ba4d95b53d3%3A0x481bc5635ffa85f5!2zU3RyYWRhIEx1bmfEgyAyNTEsIEJyYciZb3Y!5e1!3m2!1sen!2sro!4v1533510541380" width="768" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div> 
+    <section id="contact pt-4 pb-4">
+      <div class="row m-0 mt-5">
+        <div class="container d-flex justify-content-center p-0">
+          <div class="col-md-10 text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d845.0542381807918!2d25.57720722925582!3d45.66273393596613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35ba4d95b53d3%3A0x481bc5635ffa85f5!2zU3RyYWRhIEx1bmfEgyAyNTEsIEJyYciZb3Y!5e1!3m2!1sen!2sro!4v1533510541380" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -96,15 +100,15 @@
     <section class="main-footer">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-sm-auto mx-auto pt-4">
+          <div class="col-xs-auto mx-auto pt-4">
             <h3 class="text-left">Info Contact</h3>
             <div class="info-contact">
               <i class="info-contact-icon fas fa-map-marker-alt fa-2x"></i>
-              <em>Showroom:</em> Strada X nr. x, Brasov
+              Strada Lunga nr. 251, Brasov
             </div>
             <div class="info-contact">
               <i class="info-contact-icon fas fa-mobile-alt fa-2x"></i>
-              0755.000.111 / 0755.111.000
+              0741 129 611
             </div>
             <div class="info-contact">
               <i class="info-contact-icon far fa-envelope fa-2x"></i>
@@ -112,17 +116,19 @@
             </div>
             <div class="info-contact">
               <i class="info-contact-icon fab fa-facebook-square fa-2x"></i>
-              <a class="footer-links" href="https://www.facebook.com/">facebook.com/facebook</a>
+              <a class="footer-links" href="https://www.facebook.com/">facebook.com/monumentebrasov</a>
             </div>
           </div>
-          <div class="col-sm-auto mx-auto pt-4">
-            <h3>Servicii</h3>
-            <ul>
-              <li class="mb-2">Monumente Marmura</li>
-              <li class="mb-2">Monumente Granit</li>
-              <li class="mb-2">Consultanta</li>
-              <li class="mb-2">Asamblare</li>
-              <li class="mb-2">Comenzi speciale</li>
+          <div class="col-xs-auto mx-auto pt-4">
+            <h3 class="pl-4">Servicii</h3>
+            <ul class="footer-servicii">
+              <li class="mb-2">Consultanta gratuita</li>
+              <li class="mb-2">Monumente de serie</li>
+              <li class="mb-2">Monumente personalizate</li>
+              <li class="mb-2">Monumente unicat</li>
+              <li class="mb-2">Inscriptionare</li>
+              <li class="mb-2">Accesorizare</li>
+              <li class="mb-2">Montaj</li>
             </ul>
           </div>
           <div class="col-lg text-center pt-5">
@@ -137,16 +143,16 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-4 mt-3 text-md-left">
-            <p class="footer-text">© 2018 Companie. Design by Vlad.</p>
+            <p class="footer-text">© 2018 Monumente Brasov. Design by Vlad.</p>
           </div>
           <div class="col-md-8 mt-md-3 text-md-right">
             <ul class="list-inline footer-text">
-              <li class="list-inline-item"><a class="footer-links" href="#">Home</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Servicii</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Monumente</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Comenzi Speciale</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Galerie</a></li>
-              <li class="list-inline-item"><a class="footer-links" href="#">Contact</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="index.html">Home</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="index.html#servicii">Servicii</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="index.html#materiale">Materiale</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="index.html#comenzi-speciale">Comenzi Speciale</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="galerie.html">Galerie</a></li>
+              <li class="list-inline-item"><a class="footer-links" href="#!">Contact</a></li>
             </ul>
           </div>
         </div>
