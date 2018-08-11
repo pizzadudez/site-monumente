@@ -55,16 +55,30 @@
     </nav>
     
     <section id="contact2">
-      <div class="row">
-        <div class="container">
-          <div class="col">
-            <form action="https://formspree.io/lyte.cola@yahoo.com" method="POST">
-  <input name="email" type="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
-  </form>
-          </div>
-        </div>
+      
+        <div class="container mt-5">
+            <form id="contactform" action="//formspree.io/lyte.cola@yahoo.com" method="POST">
+<div class="col-sm-7 slideanim">
+  <div class="row">
+    <div class="col-sm-6 form-group">
+      <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+    </div>
+    <div class="col-sm-6 form-group">
+      <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required>
+    </div>
+  </div>
+  <textarea class="form-control" id="comments" name="message" placeholder="Message" rows="5"></textarea><br>
+  <div class="row">
+    <div class="col-sm-12 form-group">
+      <button class="btn btn-default pull-right" type="submit">Send</button>
+    </div>
+  </div>
+</div>
+<input type="hidden" name="_next" value="//peek.solutions/confirmation.html" />
+<input type="text" name="_gotcha" style="display:none" />   
+</form>
+
+   
       </div>
     </section>
     
